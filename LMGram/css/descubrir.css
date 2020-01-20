@@ -1,0 +1,51 @@
+body
+{
+    background: url(../img/descubrir/fondodescubrir.jpg)no-repeat;
+    background-position: center;
+    background-size:1900px;
+    background-color: orangered;
+
+}
+
+
+input[type="search"]{
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 45px;
+    width: 45px;
+    background-color: orangered;
+    padding: 9px 10px 9px 32px;
+    border-radius: 10em;
+    transition: all 1s;
+    outline: none;
+}
+
+input[type="search"]:focus{
+    width: 450px;
+    padding-left: 60px;
+    color: grey;
+    background-color: #f7d045;
+}
+
+.prior
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img
+{
+    margin: 50px;
+    background-color:black;
+    border: 1px solid orangered;
+    box-shadow: 15px 15px 35px black;
+    padding: 15px 15px 50px 15px;
+
+}
+
+img:hover
+{
+    transform: rotate(-5deg) scale(1.5, 1.5);
+	transition-duration: 1s;
+}

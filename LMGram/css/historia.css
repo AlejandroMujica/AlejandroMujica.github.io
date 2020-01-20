@@ -1,0 +1,144 @@
+*
+{
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+img
+{
+    height:400px;
+    width: 700px;
+}
+header
+{
+    background-color: #6687ff;
+    
+}
+input
+{
+    margin-left: 240px;
+}
+body
+{
+    background-color: black;
+}
+body article
+{
+    align-content: center;
+}
+.separadores
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.separadores *
+{
+    padding: 20px;
+    font-size: larger;
+    margin: 10px;
+}
+
+
+#parte1:hover ~ .progress > .progress-bar
+{
+    width: 30%;
+    background-color: #f7d054;
+}
+#parte2:hover ~ .progress > .progress-bar
+{
+    width: 66%;
+    background-color: #f7d054;
+}
+#parte3:hover ~ .progress > .progress-bar
+{
+    width: 100%;
+    background-color: #f7d054;
+}
+/* Ω Ω Ω Ω Ω Ω Ω Ω*/
+/* PARTE 1*/
+#parte1::selection ~ .foto1
+{
+    visibility: visible;
+}
+#parte1:hover ~ .foto2
+{
+    visibility: hidden;
+}
+#parte1:hover ~ .foto3
+{
+    visibility: hidden;
+}
+/*PARTE 2*/
+#parte2::selection ~ .foto1
+{
+    visibility: hidden;
+}
+#parte2:hover ~ .foto2
+{
+    visibility: visible;
+}
+#parte2:hover ~ .foto3
+{
+    visibility: hidden;
+}
+/*PARTE 3*/
+#parte3::selection ~ .foto1
+{
+    visibility: hidden;
+}
+#parte3:hover ~ .foto2
+{
+    visibility: hidden;
+}
+#parte3:hover ~ .foto3
+{
+    visibility: visible;
+}
+/* Ω Ω Ω Ω Ω Ω Ω Ω Ω */
+article
+{
+    display: flex;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    
+}
+input
+{
+    justify-content: space-around;
+    background: #6687ff;
+    border: 0px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Josefina Sans', sans-serif;
+}
+input:hover
+{
+    background-color: #f7d054;
+    color: #f34213;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    transition-property: color, background-color;
+
+}
+.progress {
+    
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+.progress-bar {
+
+    height: 24px;
+    border-radius: 4px;
+    background-color: #f34213;    
+    transition-property: background-color, width;
+    transition: 0.5s linear;
+   
+}
+
+/* Ω */
