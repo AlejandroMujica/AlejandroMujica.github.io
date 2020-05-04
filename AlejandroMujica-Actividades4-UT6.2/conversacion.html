@@ -8,6 +8,14 @@
 		<div class="button">
             <input type="button" id="cargar" value="Cargar" />
         </div>
+        <div id="target"> </div>
         <script src="conversacion.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#cargar').click(function(){
+                $('#target').load('conversacion.html');
+            });
+        });
+        </script>
 	</body>
 </html>
