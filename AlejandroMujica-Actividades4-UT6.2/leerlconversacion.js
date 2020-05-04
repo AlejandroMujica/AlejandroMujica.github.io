@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#lesen").click(function() {
+    $("#Cargar").click(function() {
         $.ajax({
             url : "conversacion.txt",
             dataType: "text",
