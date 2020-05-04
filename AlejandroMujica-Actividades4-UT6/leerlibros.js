@@ -5,7 +5,10 @@ function gestionarFicheroXML(xmlDoc){
 
     document.getElementById('ficheroXML').innerHTML += "<b>" + xmlDoc.querySelector('libro:nth-child(2)').textContent +
                                                                xmlDoc.querySelector('libro:nth-child(3)').textContent +
-                                                               xmlDoc.querySelector('libro:nth-child(4)').textContent + "</b>"
+                                                               xmlDoc.querySelector('libro:nth-child(4)').textContent + 
+	    						       xmlDoc.querySelector('libro:nth-child(5)').textContent +
+                                                               xmlDoc.querySelector('libro:nth-child(6)').textContent +
+                                                               xmlDoc.querySelector('libro:nth-child(7)').textContent + "</b>"
 	
 }
 
