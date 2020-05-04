@@ -1,0 +1,40 @@
+libreria
+{
+    display: table;
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+}
+
+nombre
+{
+    display: table-row;
+    vertical-align: middle;
+}
+
+libro
+{
+    padding: 10px;
+    display: table-row;
+    text-align: center;
+    vertical-align: middle;
+}
+
+libro > *
+{
+    border: 1px solid yellow;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+libro > *
+{
+	background-color: red;;
+}
+
+libro > *
+{
+    background-color: blue;
+    color: white;
+}
