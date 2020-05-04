@@ -1,11 +1,7 @@
 $(document).ready(function() {
     $("#cargar").click(function() {
-        $.ajax({
-            url : "conversacion.txt",
-            dataType: "text",
-            success : function (data) {
-                $(".text").html(data);
-            }
+        $(".text").load("conversacion.txt", function(){
+            alert("Done Loading");
         });
-    });
+   }); 
 }); 
