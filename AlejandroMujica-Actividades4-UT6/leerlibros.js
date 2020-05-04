@@ -6,7 +6,7 @@ function gestionarFicheroXML(xmlDoc){
                                                                xmlDoc.querySelector('libro:nth-child(3)').textContent +
                                                                xmlDoc.querySelector('libro:nth-child(4)').textContent +"</b>"
 
-    alert(xmlDoc.getElementsByTagName('libreria')[1].childNodes[1].firstChild.nodeValue)
+    alert(xmlDoc.getElementsByTagName('libreria')[1].childNodes[2].firstChild.nodeValue)
 
     document.getElementById('ficheroXML').innerHTML += "<b>" + xmlDoc.querySelector('libro:nth-child(5)').textContent +
                                                                xmlDoc.querySelector('libro:nth-child(6)').textContent +
